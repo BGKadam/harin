@@ -6741,10 +6741,6 @@ body:not(.touch) .btn-white:hover, .btn-white:hover {
     .btn.dropdown-toggle.btn-light [class*='icon'], .btn.dropdown-toggle.btn-light:focus [class*='icon'] {
       color: #031566; }
 
-.quick-info-text{
-font-size: 20px;
-}
-
 .btn + .btn {
   margin-left: 12px; }
 

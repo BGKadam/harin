@@ -14,7 +14,7 @@ function sendmessage() {
   var message = `Name: ${requestname}\nEmail: ${requestemail}\nPhone: ${requestphone}\nAge: ${bookingage}\nService: ${requestservice}\nDate: ${requestdate}\nTime: ${requesttime}\nMessage: ${bookingmessage}`;
 
   // Create a WhatsApp URL
-  var whatsappURL = "https://wa.me/918767531916?text=" + encodeURIComponent(message);
+  var whatsappURL = "https://wa.me/919381143154?text=" + encodeURIComponent(message);
 
   // Open the WhatsApp URL in a new window
   window.open(whatsappURL, "_blank");
