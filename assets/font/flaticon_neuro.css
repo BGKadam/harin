@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "flaticon_neuro";
+    src: url("./flaticon_neuro.ttf?c74a30fba23519fd254e681bc3ff42ba") format("truetype"),
+url("./flaticon_neuro.woff?c74a30fba23519fd254e681bc3ff42ba") format("woff"),
+url("./flaticon_neuro.woff2?c74a30fba23519fd254e681bc3ff42ba") format("woff2"),
+url("./flaticon_neuro.eot?c74a30fba23519fd254e681bc3ff42ba#iefix") format("embedded-opentype"),
+url("./flaticon_neuro.svg?c74a30fba23519fd254e681bc3ff42ba#flaticon_neuro") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_neuro !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-doctor:before {
+    content: "\f101";
+}
+.flaticon-doctor-1:before {
+    content: "\f102";
+}
+.flaticon-brain:before {
+    content: "\f103";
+}
+.flaticon-chat:before {
+    content: "\f104";
+}
+.flaticon-surgery:before {
+    content: "\f105";
+}
+.flaticon-brain-1:before {
+    content: "\f106";
+}
+.flaticon-consultation:before {
+    content: "\f107";
+}
+.flaticon-user-experience:before {
+    content: "\f108";
+}
+.flaticon-instagram:before {
+    content: "\f109";
+}
+.flaticon-google:before {
+    content: "\f10a";
+}
+.flaticon-instagram-1:before {
+    content: "\f10b";
+}
+.flaticon-facebook:before {
+    content: "\f10c";
+}
+.flaticon-youtube:before {
+    content: "\f10d";
+}

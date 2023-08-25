@@ -1,0 +1,112 @@
+.carousel-control-prev-icon {
+    background-image: url('back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+}
+.carousel-control-next-icon {
+    background-image: url('next.png') !important;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+}
+
+/* General Styles */
+.google-logo {
+    height: 60px;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+}
+
+.write-review {
+    background-color: #4285F4;
+    color: white;
+}
+
+.carousel-inner .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.review-text {
+    height: 100px;
+    overflow: hidden;
+}
+
+#google-reviews .carousel-control-prev,
+#google-reviews .carousel-control-next {
+    width: auto;
+}
+
+.fas.fa-star {
+    color: #FFBA00;
+}
+
+.rating-container {
+    text-align: left;
+}
+
+.rating {
+    display: flex;
+    direction: rtl; /* reverse the order */
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    font-size: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked ~ label {
+    color: gold;
+}
+
+label:hover,
+label:hover ~ label {
+    color: gold;
+}
+
+.rating-info {
+    font-size: 16px;
+}
+
+.overall-rating,
+.total-ratings {
+    margin: 5px;
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .google-logo {
+        height: 40px;
+    }
+
+    .rating-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .write-review-container,
+    .rating-container,
+    .carousel-inner,
+    .text-center {
+        text-align: center;
+    }
+
+    .write-review {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
